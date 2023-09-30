@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppoins", sans-serif;
+    
+}
+.container{
+    width: 100vw;
+   min-height: 100vh;
+   background-image: url(loginbg.jpg);
+
+    /* border: 5px solid black; */
+    /* background-color: rgb(214, 144, 52); */
+    /* background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
+/* 
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%); */
+
+/* background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 19%, #3179ef 39%, #f77777 60%, #ffffff 80%, #ffffff 100%); */
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+   width: 450px;
+   height: 500px;
+   /* background-color: aqua; */
+   /* background-color: #D9AFD9; */
+    /* background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
+    /* box-shadow: 5px 5px 10px black; */
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255,255, .2);
+    /* background:  linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
+    /* backdrop-filter: blur(10px); */
+    /* background: grba(255,255,255,.1); */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    gap: 45px;
+
+    /* -webkit-backdrop-filter: blur(); */
+
+}
+h1{
+    font-size: 36px;
+    text-align:center ;
+}
+.parent{
+    /* border: 2px solid black; */
+    /* background-color: aliceblue; */
+width: 400px;
+height: 300px;
+display: flex;
+flex-direction: column;
+gap: 100px;
+/* justify-content: center;
+align-items: center; */
+}
+
+.box1 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#pswd{
+    margin-bottom: 20px;
+}
+.box1 input::placeholder{
+    color: #fff;
+}
+.box1 i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.remps{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remps label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remps a{
+    color: #fff;
+    text-decoration: none;
+}
+.remps a:hover{
+    text-decoration: underline;
+}
+
+.box3{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40pox;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.register{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+.register p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+/* .box3 button{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(48, 48, 249, 0.735);
+    color: white;
+}
+
+#tab1{
+    font-size: 25px;
+}
+
+#tab2{
+    font-size: 25px;
+}
+button:hover{
+    cursor: pointer;
+} */
+
+@media (max-width:600px){
+    .box{
+        width: 380px ;
+        height: 435px;
+    }
+}
